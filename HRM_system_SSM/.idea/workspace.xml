@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HRM_system_SSM:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68deaefa-9838-4446-a4d2-18bcdcf7f8ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HRM_system_SSM_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/93322319-9d32-40ff-9422-3bba648a5cd2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/93322319-9d32-40ff-9422-3bba648a5cd2/storage_v2/_src_/schema/SCOTT.v0axBA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/93322319-9d32-40ff-9422-3bba648a5cd2/storage_v2/_src_/schema/SCOTT.v0axBA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/storage_v2/_src_/schema/GAVIN.4VwHBA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HRM_system_SSM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/aspectjrt-1.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/jackson-annotations-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/jackson-core-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/jackson-core-asl-1.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/jackson-databind-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/jackson-mapper-asl-1.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/jackson-module-jaxb-annotations-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/jta-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/ojdbc6_g-11.2.0.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-aspects-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-context-support-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-instrument-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-jdbc-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-jms-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-messaging-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-orm-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-tx-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-webmvc-portlet-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/spring-websocket-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/lib/standard-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/user_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/big01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/middle01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/regist_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/register.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/small09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/tao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/title2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/yanzhengma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/淘宝.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gavin/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gavin/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gavin/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gavin/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="GAVIN: schema" type="ac44c5e0:OracleImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="GAVIN: schema" type="ac44c5e0:OracleImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1461300642">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="2" />
+          <entry key="html" value="6" />
+          <entry key="java" value="73" />
+          <entry key="jsp" value="27" />
+          <entry key="properties" value="113" />
+          <entry key="sql" value="29" />
+          <entry key="txt" value="8" />
+          <entry key="xml" value="144" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="6" />
+          <entry key="JAVA" value="73" />
+          <entry key="JSP" value="27" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Properties" value="113" />
+          <entry key="SQL" value="9" />
+          <entry key="Scratch" value="31" />
+          <entry key="XML" value="135" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="T_USER" value="6" />
+          <entry key="html" value="2" />
+          <entry key="java" value="17" />
+          <entry key="jsp" value="11" />
+          <entry key="properties" value="3" />
+          <entry key="sql" value="5" />
+          <entry key="xml" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="6" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="17" />
+          <entry key="JSP" value="11" />
+          <entry key="Properties" value="3" />
+          <entry key="Scratch" value="5" />
+          <entry key="XML" value="19" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="mybatis-config" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/web/index.html" />
+        <option value="$PROJECT_DIR$/src/main/web/index.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539936941485" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27376425" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\WEB-INF\pages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gavin.controller" />
+      <recent name="com.gavin.service.impl" />
+      <recent name="com.gavin.service" />
+      <recent name="com.gavin.model" />
+      <recent name="com.gavin.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web" />
+      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\WEB-INF" />
+      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\WEB-INF\pages" />
+      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="HRM_system_SSM:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/HRM_system" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_HRM_system_SSM_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52620" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HRM_system_SSM:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68deaefa-9838-4446-a4d2-18bcdcf7f8ce" name="Default Changelist" comment="" />
+      <created>1539913320827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539913320827</updated>
+      <workItem from="1539913324615" duration="15727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15727000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.21406959" />
+      <window_info id="Structure" order="1" sideWeight="0.50152904" side_tool="true" weight="0.24962293" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32786885" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.5770492" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5770492" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" weight="0.22541603" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/477b4a3d-789f-41b5-b6bb-f16fcf2f50d2/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/93322319-9d32-40ff-9422-3bba648a5cd2/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding>
+            <element signature="e#1034#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/schema/GAVIN/table/T_USER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="274" column="12" selection-start-line="274" selection-start-column="12" selection-end-line="274" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/pay.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/foot.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="80" column="17" lean-forward="true" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>HRM_system_SSM:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27376425" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27376425" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|HRM_system_SSM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27376425" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.oracle:ojdbc6_g:11.2.0.4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27376425" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
