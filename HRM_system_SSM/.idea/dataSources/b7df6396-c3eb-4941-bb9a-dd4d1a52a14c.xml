@@ -6,9 +6,9 @@
     </root>
     <schema id="2" parent="1" name="GAVIN">
       <ObjectId>49</ObjectId>
-      <IntrospectionTimestamp>2018-10-19.20:57:28</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-10-20.19:15:28</IntrospectionTimestamp>
       <CreatedTimestamp>2018-10-19.19:10:32</CreatedTimestamp>
-      <ModifiedTimestamp>2018-10-19.20:57:26</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-10-20.19:14:03</ModifiedTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -66,32 +66,131 @@
     <schema id="20" parent="1" name="XS$NULL">
       <ObjectId>2147483638</ObjectId>
     </schema>
-    <sequence id="21" parent="2" name="USER_SEQ">
+    <sequence id="21" parent="2" name="RESUME_SEQ">
+      <ObjectId>20378</ObjectId>
+      <CreatedTimestamp>2018-10-20.18:10:19</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-20.18:10:19</ModifiedTimestamp>
+      <SequenceIdentity>1..99999999</SequenceIdentity>
+    </sequence>
+    <sequence id="22" parent="2" name="USER_SEQ">
       <ObjectId>20285</ObjectId>
       <CreatedTimestamp>2018-10-19.20:57:26</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-19.20:57:26</ModifiedTimestamp>
       <SequenceIdentity>1..99999999</SequenceIdentity>
     </sequence>
-    <table id="22" parent="2" name="T_USER">
+    <table id="23" parent="2" name="T_RESUME">
+      <ObjectId>20376</ObjectId>
+      <CreatedTimestamp>2018-10-20.17:41:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-20.19:14:03</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="24" parent="2" name="T_USER">
       <ObjectId>20283</ObjectId>
       <CreatedTimestamp>2018-10-19.19:10:32</CreatedTimestamp>
       <ModifiedTimestamp>2018-10-19.19:36:36</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <column id="23" parent="22" name="U_ID">
+    <column id="25" parent="23" name="RES_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(20 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="23" name="RES_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="27" parent="23" name="RES_AGE">
+      <Position>3</Position>
+      <DataType>NUMBER(20 digit)|0s</DataType>
+    </column>
+    <column id="28" parent="23" name="RES_GENDER">
+      <Position>4</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <column id="29" parent="23" name="RES_PHONE">
+      <Position>5</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="30" parent="23" name="RES_BIRTH">
+      <Position>6</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="31" parent="23" name="RES_EDUCATION">
+      <Position>7</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="32" parent="23" name="RES_EMAIL">
+      <Position>8</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="33" parent="23" name="RES_ADDRESS">
+      <Position>9</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="34" parent="23" name="RES_EDUCATION_BACKGROUND">
+      <Position>10</Position>
+      <DataType>VARCHAR2(300 byte)|0s</DataType>
+    </column>
+    <column id="35" parent="23" name="RES_WORK_EXPERIENCE">
+      <Position>11</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+    </column>
+    <column id="36" parent="23" name="RES_CERTIFICATE">
+      <Position>12</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <column id="37" parent="23" name="RES_ABOUT_ME">
+      <Position>13</Position>
+      <DataType>VARCHAR2(500 byte)|0s</DataType>
+    </column>
+    <column id="38" parent="23" name="RES_IDCARD">
+      <Position>14</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="39" parent="23" name="RES_EXPECT_SALARY">
+      <Position>15</Position>
+      <DataType>NUMBER(20 digit)|0s</DataType>
+    </column>
+    <column id="40" parent="23" name="RES_JOB_INTENTION">
+      <Position>16</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="41" parent="23" name="U_ID">
+      <Position>17</Position>
+      <DataType>NUMBER(20 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="42" parent="23" name="SYS_C007050">
+      <ObjectId>20377</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-10-20.17:41:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-20.17:41:38</ModifiedTimestamp>
+      <TablespaceName>SYSTEM</TablespaceName>
+      <ColNames>RES_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="43" parent="23" name="SYS_C007050">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-10-20.17:41:38</ModifiedTimestamp>
+      <ColNames>RES_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007050</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="44" parent="24" name="U_ID">
       <Position>1</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="24" parent="22" name="U_NAME">
+    <column id="45" parent="24" name="U_NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
     </column>
-    <column id="25" parent="22" name="U_PASS">
+    <column id="46" parent="24" name="U_PASS">
       <Position>3</Position>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
     </column>
-    <index id="26" parent="22" name="SYS_C007040">
+    <index id="47" parent="24" name="SYS_C007040">
       <ObjectId>20284</ObjectId>
       <NameSurrogate>1</NameSurrogate>
       <CreatedTimestamp>2018-10-19.19:10:32</CreatedTimestamp>
@@ -100,7 +199,7 @@
       <ColNames>u_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="27" parent="22" name="SYS_C007040">
+    <key id="48" parent="24" name="SYS_C007040">
       <NameSurrogate>1</NameSurrogate>
       <ModifiedTimestamp>2018-10-19.19:10:32</ModifiedTimestamp>
       <ColNames>U_ID</ColNames>

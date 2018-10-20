@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gavin.dao.ResumeDao">
+    <insert id="addResume">
+          insert  into T_RESUME values (
+          RESUME_SEQ.nextval,#{res_name},#{res_age},#{res_gender},
+          #{res_phone},#{res_birth},#{res_education},#{res_email},
+          #{res_address},#{res_education_background},#{res_work_experience},
+          #{res_certificate},#{res_aboutMe},#{res_idCard},#{res_expect_salary},#{res_job_intention}
+          )
+    </insert>
+
+    <delete id="deleteResume">
+        delete from T_RESUME
+        <where>
+            <if test="u_id!=null and u_id!=''">
+                U_ID=#{u_id}
+            </if>
+        </where>
+    </delete>
+
+    <update id="updateResume">
+        update T_RESUME set RES_NAME=#{res_name},RES_AGE=#{res_age},RES_GENDER=#{res_gender},
+        RES_PHONE=#{res_phone},RES_BIRTH=#{res_birth},RES_EDUCATION=#{res_education},
+        RES_EMAIL=#{res_email},RES_ADDRESS=#{res_address},RES_EDUCATION_BACKGROUND=#{res_education_background},
+        RES_WORK_EXPERIENCE=#{res_work_experience},RES_CERTIFICATE=#{res_certificate},RES_ABOUT_ME=#{res_aboutMe},
+        RES_IDCARD=#{res_idCard},RES_EXPECT_SALARY=#{res_expect_salary},RES_JOB_INTENTION=#{res_job_intension},U_ID=#{u_id}
+        <where>
+            <if test="u_id!=null and u_id!=''">
+                  U_ID=#{u_id}
+            </if>
+        </where>
+    </update>
+
+    <select id="getResume" resultType="Resume">
+        select * from T_RESUME
+        <where>
+            <if test="u_id!=null and u_id!=''">
+                U_ID=#{u_id}
+            </if>
+            <if test="res_name!=null and res_name!=''">
+                and RES_NAME=#{res_name}
+            </if>
+            <if test="res_idCard!=null res_idCard!=''">
+                and RES_IDCARD=#{res_idCard}
+            </if>
+        </where>
+    </select>
+</mapper>
