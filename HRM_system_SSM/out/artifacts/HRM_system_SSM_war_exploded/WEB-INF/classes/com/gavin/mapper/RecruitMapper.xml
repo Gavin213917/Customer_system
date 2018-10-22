@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gavin.dao.RecruitDao">
+
+    <insert id="addRecruit">
+        insert into T_RECRUIT VALUES (RECRUIT_SEQ.nextval,
+        REC_COMPANY_NAME=#{rec_company_name},REC_JOB=#{rec_job},
+        REC_INFO=#{rec_info},REC_CONTACT=#{rec_contact},REC_ADDRESS=#{rec_address},
+        REC_SAL=#{rec_sal},REC_DATE=#{rec_date}
+        )
+    </insert>
+
+    <update id="updateRecruit">
+        UPDATE T_RECRUIT SET REC_COMPANY_NAME=#{rec_company_name},REC_JOB=#{rec_job},
+        REC_INFO=#{rec_info},REC_CONTACT=#{rec_contact},REC_ADDRESS=#{rec_address},
+        REC_SAL=#{rec_sal},REC_DATE=#{rec_date}
+        WHERE REC_ID=#{rec_id}
+    </update>
+
+    <delete id="deleteRecruit">
+        DELETE FROM T_RECRUIT WHERE REC_ID=#{rec_id}
+    </delete>
+
+    <select id="getRecruit" resultType="Recruit">
+        SELECT * FROM T_RECRUIT
+        <where>
+            <if test="rec_id!=null and rec_id!=''">
+                and REC_ID=#{rec_id}
+            </if>
+        </where>
+    </select>
+
+    <select id="getRecruitAll" resultType="Recruit">
+        select * from T_RECRUIT
+    </select>
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gavin.dao.InterviewDao">
+    <insert id="addInterview">
+        insert into T_INTERVIEW values (INTERVIEW_SEQ.nextval,
+        U_ID=#{u_id},IVIEW_STATUS=#{iview_status},IVIEW_TIME=#{iview_time}
+        )
+    </insert>
+
+    <update id="updateInterview">
+          UPDATE T_INTERVIEW SET IVIEW_STATUS=#{iview_status},IVIEW_TIME=#{iview_time}
+          WHERE U_ID=#{u_id}
+    </update>
+
+    <delete id="deleteInterview">
+          DELETE FROM T_INTERVIEW WHERE U_ID=#{u_id}
+    </delete>
+
+    <select id="getInterview" resultType="Interview">
+          SELECT * FROM T_INTERVIEW WHERE U_ID=#{u_id}
+    </select>
+</mapper>

@@ -22,7 +22,7 @@ public class GoController {
 
     @RequestMapping("/go_main")
     public String main() throws Exception {
-        return "main";
+        return "/main.jsp";
     }
 
 }

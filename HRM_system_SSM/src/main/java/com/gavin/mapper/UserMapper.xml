@@ -8,14 +8,14 @@
           insert into T_USER values (USER_SEQ.nextval,#{u_name},#{u_pass})
     </insert>
 
-    <select id="getUser" resultType="User">
+    <select id="getUser" resultType="User" parameterType="User">
         SELECT * FROM T_USER
         <where>
             <if test="u_name!=null and u_name!=''">
                 and U_NAME=#{u_name}
             </if>
             <if test="u_pass!=null and u_pass!=''">
-                AND U_PASS=#{u_pass}
+                and U_PASS=#{u_pass}
             </if>
         </where>
     </select>
