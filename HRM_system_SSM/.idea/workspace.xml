@@ -7,75 +7,226 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68deaefa-9838-4446-a4d2-18bcdcf7f8ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/RecruitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/InterviewDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/RecruitDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/InterviewMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/RecruitMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/Interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/Recruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/InterviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/RecruitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/InterviewServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/RecruitServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/foot.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/article.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/cart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/cart1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/common.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/dialog_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/error.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/finalbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/index.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/info.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/loading_bar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/loading_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/loginbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/member.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/message.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/order.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/password.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/product.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/recruit9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/review.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/storage_v2/_src_/schema/GAVIN.4VwHBA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/storage_v2/_src_/schema/GAVIN.4VwHBA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/adminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/ChurAlert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/chur-alert.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/chur-alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/chur.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/jquery-ui-1.8.22.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/jquery.easyui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/jquery.spritely-0.6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/blue_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/blue_s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/blue_titbtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_lb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_lt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_lt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_rb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_rt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_rt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/blue/ie6/ui_t2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/32X32/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/32X32/hits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/32X32/i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/32X32/succ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/discuz_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/face-sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/face-smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/gb_tip_layer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/gb_tip_layer_ie6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/tips.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/skins/icons/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/tb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Scripts/tip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/admin-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/chur.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/font/Vani.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/font/Vanib.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/font/fzqt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/formui-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/formui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/easyui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/accordion_collapse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/accordion_expand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/button_a_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/button_plain_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/button_span_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/calendar_nextmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/calendar_nextyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/calendar_prevmonth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/calendar_prevyear.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/combo_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/datagrid_header_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/datagrid_row_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/datagrid_row_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/datagrid_sort_asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/datagrid_sort_desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/datagrid_title_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/datebox_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/layout_arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/menu_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/menu_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/menu_sep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/menu_split_downarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/messager_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/messager_info.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/messager_question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/messager_warning.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/pagination_first.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/pagination_last.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/pagination_load.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/pagination_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/pagination_next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/pagination_prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/panel_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/panel_title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/panel_tool_collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/panel_tool_expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/panel_tools.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/searchbox_button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/slider_handle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/spinner_arrow_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/spinner_arrow_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tabs_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tabs_enabled.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tabs_leftarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tabs_rightarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_arrows.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_checkbox_0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_checkbox_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_checkbox_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_dnd_no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_dnd_yes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_elbow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_file.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_folder_open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/tree_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/validatebox_pointer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/images/validatebox_warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-all/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-icons_228ef1_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/ui-lightness/jquery-ui-1.8.22.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/Styles/副本 bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/captcha.jhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/foot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/logo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/resume.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/images/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/b9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/chur/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/chur/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/chur/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/chur/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/chur/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/chur/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/cloud1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/code.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/danger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/footer-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/leaf4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/leaf5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/leaf6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/leaf7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/leaf8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/nav-tip.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/top-menu-bg-left.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/top-menu-con.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/img/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/js/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/GoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/GoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/resume.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/resume.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/header.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/header.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/controller/GoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/controller/GoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dispatcher-servlet.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,13 +267,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="GAVIN: schema" type="ac44c5e0:OracleImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="T_RECRUIT: table" type="be4db629:OracleImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="GAVIN: schema" type="ac44c5e0:OracleImplModel$Schema" />
         <item name="sequences" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
@@ -132,109 +276,179 @@
     <session id="1461300642">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="5" />
           <entry key="dummy" value="1" />
-          <entry key="html" value="22" />
-          <entry key="java" value="1945" />
-          <entry key="jsp" value="1421" />
+          <entry key="html" value="33" />
+          <entry key="java" value="2086" />
+          <entry key="jsp" value="2226" />
           <entry key="properties" value="113" />
           <entry key="sql" value="157" />
           <entry key="txt" value="8" />
-          <entry key="xml" value="1115" />
+          <entry key="xml" value="1130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="22" />
-          <entry key="JAVA" value="1945" />
-          <entry key="JSP" value="1421" />
+          <entry key="HTML" value="33" />
+          <entry key="JAVA" value="2086" />
+          <entry key="JSP" value="2226" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="113" />
           <entry key="SQL" value="75" />
           <entry key="Scratch" value="143" />
-          <entry key="XML" value="1059" />
+          <entry key="XML" value="1074" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="T_RECRUIT" value="1" />
-          <entry key="T_USER" value="8" />
-          <entry key="css" value="3" />
-          <entry key="gif" value="4" />
-          <entry key="html" value="4" />
-          <entry key="java" value="79" />
-          <entry key="jpg" value="35" />
-          <entry key="js" value="1" />
-          <entry key="jsp" value="45" />
+          <entry key="T_USER" value="9" />
+          <entry key="css" value="4" />
+          <entry key="gif" value="7" />
+          <entry key="html" value="5" />
+          <entry key="java" value="93" />
+          <entry key="jpg" value="50" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="69" />
           <entry key="png" value="3" />
           <entry key="properties" value="3" />
           <entry key="sql" value="12" />
-          <entry key="xml" value="53" />
+          <entry key="xml" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="Database Element" value="9" />
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="42" />
-          <entry key="JAVA" value="79" />
-          <entry key="JSP" value="45" />
-          <entry key="JavaScript" value="1" />
+          <entry key="CSS" value="4" />
+          <entry key="Database Element" value="10" />
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="60" />
+          <entry key="JAVA" value="93" />
+          <entry key="JSP" value="69" />
+          <entry key="JavaScript" value="2" />
           <entry key="Properties" value="3" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="10" />
-          <entry key="XML" value="53" />
+          <entry key="XML" value="57" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/RecruitController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-409">
-              <caret line="213" column="25" selection-start-line="213" selection-start-column="25" selection-end-line="213" selection-end-column="25" />
+            <state relative-caret-position="244">
+              <caret line="311" column="10" lean-forward="true" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
               <folding>
-                <element signature="e#1258#1264#0#HTML" expanded="true" />
-                <element signature="e#1325#1331#0#HTML" expanded="true" />
-                <element signature="e#1508#1514#0#HTML" expanded="true" />
-                <element signature="e#1800#1806#0#HTML" expanded="true" />
-                <element signature="e#1852#1858#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5226#5232#0#HTML" expanded="true" />
+                <element signature="e#5232#5238#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6228#6233#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#2;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#6682#6687#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#3;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#3;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7153#7158#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#4;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#4;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7607#7612#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#5;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#5;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8061#8066#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#6;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#6;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#6;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8532#8537#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#7;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#7;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#7;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8985#8990#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#8;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#8;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#8;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#9439#9444#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#9;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#9;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#font#0;n#p#1;n#div#9;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#9893#9898#0#HTML" expanded="true" />
+                <element signature="e#10308#10314#0#HTML" expanded="true" />
+                <element signature="e#10314#10320#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#5;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#6;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#7;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#8;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#9;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#15899#15905#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit8.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="157" column="62" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -246,11 +460,11 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="mybatis-config" />
-        <option value="HTML File" />
         <option value="Mybatis Mapper" />
-        <option value="Jsp File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -274,15 +488,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/model/Resume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/ResumeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/web/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/foot.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/qqq.html" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/index.jsp" />
         <option value="b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/schema/GAVIN/table/T_USER.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/model/Recruit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/RecruitDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/RecruitSericeImpl.java" />
@@ -294,9 +503,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/InterviewService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/InterviewServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/RecruitMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
@@ -306,7 +512,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/RecruitServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/RecruitController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/qqq.html" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/adminController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin_login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" />
       </list>
     </option>
   </component>
@@ -347,7 +564,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,7 +639,7 @@
               <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
@@ -430,6 +647,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
@@ -452,7 +670,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -461,7 +679,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540220154435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540315612669" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -484,10 +702,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\img" />
-      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\WEB-INF\pages" />
-      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web" />
-      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\css" />
+      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\images" />
       <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\js" />
+      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web" />
+      <recent name="F:\git_project\customer_system\HRM_system_SSM\src\main\web\WEB-INF\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -590,12 +808,14 @@
       <workItem from="1539949293928" duration="1871000" />
       <workItem from="1539998947285" duration="20480000" />
       <workItem from="1540171197736" duration="14865000" />
-      <workItem from="1540211914404" duration="8227000" />
+      <workItem from="1540211914404" duration="8276000" />
+      <workItem from="1540255701926" duration="14978000" />
+      <workItem from="1540301752854" duration="12467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66568000" />
+    <option name="totallyTimeSpent" value="94062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +830,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.024205748" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.14372164" />
       <window_info id="Structure" order="1" sideWeight="0.50152904" side_tool="true" weight="0.24962293" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -620,7 +840,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.4262295" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.33114755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -639,7 +859,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.24205749" />
+      <window_info anchor="right" id="Database" order="5" weight="0.10892587" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
@@ -652,181 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/dialog_overlay.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/login.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/header.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/footer.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/qqq.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/web/foot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/schema/GAVIN/table/T_USER">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/schema/GAVIN/table/T_USER.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/ResumeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="24" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Recruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
-          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/InterviewMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/InterviewDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Interview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit9.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit7.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit6.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/small03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/schema/GAVIN/table/T_RECRUIT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="335" column="7" selection-start-line="335" selection-start-column="7" selection-end-line="335" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21">
@@ -834,16 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/ReController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/ReController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -876,9 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,33 +929,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/RecruitDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/RecruitService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,46 +940,311 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
           <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/qqq.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Interview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/RecruitMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="357">
           <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Recruit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="252">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/RecruitController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/RecruitDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885">
+          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/schema/GAVIN/table/T_USER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/images/skin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/adminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin_login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding>
+            <element signature="e#1587#1593#0#HTML" expanded="true" />
+            <element signature="e#1593#1599#0#HTML" expanded="true" />
+            <element signature="e#1599#1605#0#HTML" expanded="true" />
+            <element signature="e#1679#1685#0#HTML" expanded="true" />
+            <element signature="e#1685#1691#0#HTML" expanded="true" />
+            <element signature="e#1691#1697#0#HTML" expanded="true" />
+            <element signature="e#1969#1975#1#HTML" expanded="true" />
+            <element signature="e#2077#2083#0#HTML" expanded="true" />
+            <element signature="e#2083#2089#0#HTML" expanded="true" />
+            <element signature="e#2089#2095#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1142">
+          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
-          <caret line="213" column="25" selection-start-line="213" selection-start-column="25" selection-end-line="213" selection-end-column="25" />
+        <state relative-caret-position="539">
+          <caret line="116" column="7" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="157" column="62" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/a9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/b1.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/b2.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/img/recruit7.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="311" column="10" lean-forward="true" selection-start-line="311" selection-start-column="10" selection-end-line="311" selection-end-column="10" />
           <folding>
-            <element signature="e#1258#1264#0#HTML" expanded="true" />
-            <element signature="e#1325#1331#0#HTML" expanded="true" />
-            <element signature="e#1508#1514#0#HTML" expanded="true" />
-            <element signature="e#1800#1806#0#HTML" expanded="true" />
-            <element signature="e#1852#1858#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5226#5232#0#HTML" expanded="true" />
+            <element signature="e#5232#5238#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#1;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6228#6233#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#2;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6682#6687#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#3;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#3;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7153#7158#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#4;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#4;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7607#7612#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#5;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#5;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8061#8066#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#6;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#6;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#6;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8532#8537#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#7;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#7;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#7;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8985#8990#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#8;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#8;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#8;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9439#9444#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#9;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#9;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#font#0;n#p#1;n#div#9;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9893#9898#0#HTML" expanded="true" />
+            <element signature="e#10308#10314#0#HTML" expanded="true" />
+            <element signature="e#10314#10320#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#4;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#5;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#6;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#7;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#8;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#9;n#div#2;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#15899#15905#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

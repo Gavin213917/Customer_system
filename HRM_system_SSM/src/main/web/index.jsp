@@ -163,6 +163,7 @@
         <div class="top" id="top">
             <a href="go_login">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="go_register">注册</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="go_admin_login">管理员登录</a>
         </div>
     </div>
 

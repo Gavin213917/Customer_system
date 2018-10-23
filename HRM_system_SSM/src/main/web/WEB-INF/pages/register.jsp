@@ -47,7 +47,7 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名
                 </td>
                 <td>
-                    <input type="text" name="name" size="34px" id="user" onfocus="showTips('user','用户名必填！')"
+                    <input type="text" name="u_name" size="34px" id="user" onfocus="showTips('user','用户名必填！')"
                            onblur="check('user','用户名不能为空！')"/><span id="userspan"></span>
                 </td>
             </tr>
@@ -56,7 +56,7 @@
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码
                 </td>
                 <td>
-                    <input type="password" name="pass" size="34px" id="password"
+                    <input type="password" name="u_pass" size="34px" id="password"
                            onfocus="showTips('password','密码必填')" onblur="check('password','密码不能为空!')"/><span
                         id="passwordspan"></span>
                 </td>

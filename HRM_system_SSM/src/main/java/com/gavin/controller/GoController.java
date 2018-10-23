@@ -10,6 +10,11 @@ public class GoController {
         return "login";
     }
 
+    @RequestMapping("/go_admin_login")
+    public String go_admin_login() throws Exception {
+        return "admin_login";
+    }
+
     @RequestMapping("/go_register")
     public String go_register() throws Exception {
         return "register";

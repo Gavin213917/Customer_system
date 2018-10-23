@@ -27,7 +27,7 @@ public class UserController {
     }
 
     @RequestMapping("/register")
-    public String register(User user,Model model) throws Exception {
+    public String register(User user, Model model) throws Exception {
         if (userService.register(user)) {
             model.addAttribute("success", "注册成功！登录吧！");
             return "login";
