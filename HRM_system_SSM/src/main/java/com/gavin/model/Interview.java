@@ -1,5 +1,7 @@
 package com.gavin.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -7,6 +9,7 @@ public class Interview implements Serializable {
     private Integer iview_id;
     private Integer u_id;//用户id
     private Integer iview_status;//发送状态，1代表已发送，0代表未发送
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date iview_time;//面试时间
 
     public Interview() {

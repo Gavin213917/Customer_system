@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 
 @Controller
-public class adminController {
+public class AdminController {
     @Resource
     private UserService userService;
 

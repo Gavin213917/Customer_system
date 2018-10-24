@@ -6,7 +6,7 @@
           RESUME_SEQ.nextval,#{res_name},#{res_age},#{res_gender},
           #{res_phone},#{res_birth},#{res_education},#{res_email},
           #{res_address},#{res_education_background},#{res_work_experience},
-          #{res_certificate},#{res_aboutMe},#{res_idCard},#{res_expect_salary},#{res_job_intention}
+          #{res_certificate},#{res_aboutMe},#{res_idCard},#{res_expect_salary},#{res_job_intention},#{u_id}
           )
     </insert>
 
@@ -37,12 +37,6 @@
         <where>
             <if test="u_id!=null and u_id!=''">
                 U_ID=#{u_id}
-            </if>
-            <if test="res_name!=null and res_name!=''">
-                and RES_NAME=#{res_name}
-            </if>
-            <if test="res_idCard!=null res_idCard!=''">
-                and RES_IDCARD=#{res_idCard}
             </if>
         </where>
     </select>

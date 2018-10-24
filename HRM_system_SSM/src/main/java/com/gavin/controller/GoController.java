@@ -27,7 +27,17 @@ public class GoController {
 
     @RequestMapping("/go_main")
     public String main() throws Exception {
-        return "/main.jsp";
+        return "main";
+    }
+
+    @RequestMapping("/go_addEmployee")
+    public String go_addEmployee() throws Exception {
+        return "addEmployee";
+    }
+
+    @RequestMapping("/go_add_interview")
+    public String go_add_interview() throws Exception {
+        return "add_interview";
     }
 
 }

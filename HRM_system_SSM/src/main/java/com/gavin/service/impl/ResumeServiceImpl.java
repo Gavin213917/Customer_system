@@ -6,6 +6,7 @@ import com.gavin.service.ResumeService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class ResumeServiceImpl implements ResumeService {
@@ -19,10 +20,12 @@ public class ResumeServiceImpl implements ResumeService {
         return resumeDao.addResume(resume);
     }
 
-    public boolean deleteResume(Resume resume) {
-        if (null == resume) {
+    public boolean deleteResume(Integer u_id) {
+        if (u_id <= 0) {
             return false;
         }
+        Resume resume = new Resume();
+        resume.setU_id(u_id);
         return resumeDao.deleteResume(resume);
     }
 
@@ -33,10 +36,13 @@ public class ResumeServiceImpl implements ResumeService {
         return resumeDao.updateResume(resume);
     }
 
-    public Resume getResume(Resume resume) {
-        if (null == resume) {
-            return null;
+    public List<Resume> getResume(Integer u_id) {
+        Resume resume = new Resume();
+        resume.setU_id(u_id);
+        List<Resume> resumeList = resumeDao.getResume(resume);
+        if (resumeList.size() != 0) {
+            return resumeList;
         }
-        return resumeDao.getResume(resume);
+        return null;
     }
 }

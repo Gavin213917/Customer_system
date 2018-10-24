@@ -2,6 +2,8 @@ package com.gavin.dao;
 
 import com.gavin.model.Resume;
 
+import java.util.List;
+
 public interface ResumeDao {
     boolean addResume(Resume resume);
 
@@ -9,5 +11,5 @@ public interface ResumeDao {
 
     boolean updateResume(Resume resume);
 
-    Resume getResume(Resume resume);
+    List<Resume> getResume(Resume resume);
 }

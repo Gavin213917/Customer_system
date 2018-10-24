@@ -6,6 +6,7 @@ import com.gavin.service.InterviewService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class InterviewServiceImpl implements InterviewService {
@@ -29,12 +30,10 @@ public class InterviewServiceImpl implements InterviewService {
         return interviewDao.deleteInterview(interview);
     }
 
-    public boolean updateInterview(Integer u_id) {
-        if (u_id <= 0) {
+    public boolean updateInterview(Interview interview) {
+        if (interview == null) {
             return false;
         }
-        Interview interview = new Interview();
-        interview.setU_id(u_id);
         return interviewDao.updateInterview(interview);
     }
 
@@ -45,5 +44,13 @@ public class InterviewServiceImpl implements InterviewService {
         Interview interview = new Interview();
         interview.setU_id(u_id);
         return interviewDao.getInterview(interview);
+    }
+
+    public List<Interview> getInterviewAll() {
+        List<Interview> interviews = interviewDao.getInterviewAll();
+        if (interviews.size() != 0) {
+            return interviews;
+        }
+        return null;
     }
 }

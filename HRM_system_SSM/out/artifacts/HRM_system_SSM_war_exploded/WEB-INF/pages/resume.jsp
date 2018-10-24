@@ -16,7 +16,8 @@
     <title>简历页面</title>
 </head>
 <body style="background:url(images/resume.jpg);">
-<form action="" method="post">
+<form action="return_recruit" method="post">
+    <input type="submit" value="提交">
     <table width="700" height="542" border="1" cellspacing="1px" align="center">
         <caption>
             <h3>个人简历</h3></caption>
@@ -114,6 +115,7 @@
             </td>
         </tr>
     </table>
+
 </form>
 </body>
 </html>

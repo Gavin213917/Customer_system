@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gavin.dao.EmployeeDao">
+    <insert id="addEmployee">
+        insert into T_EMPLOYEE values (
+        EMPLOYEE_SEQ.nextval,#{emp_name},#{emp_gender},
+        #{emp_birth},#{emp_salary},#{emp_account},#{emp_pass},
+        #{dep_id},#{pos_id},#{emp_hireDate},#{emp_status}
+        )
+    </insert>
+    <update id="updateEmployee">
+        update T_EMPLOYEE set EMP_NAME=#{emp_name},emp_gender#{emp_gender},
+        emp_birth=#{emp_birth},emp_salary=#{emp_salary},emp_account=#{emp_account},emp_pass=#{emp_pass},
+        dep_id=#{dep_id},pos_id=#{pos_id},emp_hireDate=#{emp_hireDate},emp_status=#{emp_status}
+        <where>
+            <if test="emp_id!=null and emp_id!=''">
+                emp_id=#{emp_id}
+            </if>
+            <if test="emp_account!=null and emp_account!=''">
+                emp_account=#{emp_account}
+            </if>
+        </where>
+    </update>
+
+    <delete id="deleteEmployee">
+        delete from T_EMPLOYEE where EMP_ID=#{emp_id}
+    </delete>
+
+    <select id="getEmployee" resultType="Employee">
+        select * from T_EMPLOYEE
+        <where>
+            <if test="emp_id!=null and emp_id!=''">
+                emp_id=#{emp_id}
+            </if>
+            <if test="emp_account!=null and emp_account!=''">
+                emp_account=#{emp_account}
+            </if>
+        </where>
+    </select>
+
+    <select id="getEmployeeAll" resultType="Employee">
+        select * from T_EMPLOYEE
+    </select>
+</mapper>

@@ -36,7 +36,7 @@
         <div class="col-md-3" style="padding-top:20px">
             <ol class="list-inline">
                 <li><a href="#">${sessionScope.u.u_name}</a></li>
-                <li><a href="#">个人信息</a></li>
+                <li><a href="go_userInfo">个人信息</a></li>
             </ol>
         </div>
     </div>
@@ -147,15 +147,17 @@
                 <a href="product_info.htm">
                     <img src="img/a3.jpg" width="130" height="130" style="display: inline-block;">
                 </a>
-                <p><a href="product_info.html" style='color:#666'>大鹏科技</a></p>
+                <p><a href="showRecruit" style='color:#666'>大鹏科技</a></p>
+                <p>职位:java工程师</p>
                 <p><font color="#E4393C" style="font-size:16px">&yen;6000</font></p>
             </div>
 
             <div class="col-md-2" style="text-align:center;height:200px;padding:10px 0px;">
-                <a href="product_info.htm">
+                <a href="showRecruit">
                     <img src="img/a4.jpg" width="130" height="130" style="display: inline-block;">
                 </a>
-                <p><a href="product_info.html" style='color:#666'>百思买</a></p>
+                <p><a href="showRecruit" style='color:#666'>百思买</a></p>
+                <p>职位:java工程师</p>
                 <p><font color="#E4393C" style="font-size:16px">&yen;6500</font></p>
             </div>
 

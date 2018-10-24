@@ -1,5 +1,9 @@
 package com.gavin.model;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.format.annotation.DateTimeFormat;
+import sun.awt.SunHints;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -9,6 +13,7 @@ public class Resume implements Serializable {
     private Integer res_age;
     private String res_gender;
     private String res_phone;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date res_birth;
     private String res_education;
     private String res_email;
