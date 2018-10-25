@@ -3,7 +3,7 @@
 <mapper namespace="com.gavin.dao.InterviewDao">
     <insert id="addInterview">
         insert into T_INTERVIEW values (INTERVIEW_SEQ.nextval,
-        U_ID=#{u_id},IVIEW_STATUS=#{iview_status},IVIEW_TIME=#{iview_time}
+        #{u_id},#{iview_status},#{iview_time}
         )
     </insert>
 

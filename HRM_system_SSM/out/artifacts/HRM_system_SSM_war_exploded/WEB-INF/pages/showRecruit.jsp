@@ -29,8 +29,6 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container-fluid">
-
     <!--
         描述：菜单栏
     -->
@@ -88,7 +86,8 @@
             <!-- /.container-fluid -->
         </nav>
     </div>
-    <table class="table table-hover" border="1px" width="1000px" height="100px" align="center" cellpadding="0px" cellspacing="0px">
+    <table class="table table-hover" border="1px" width="1000px" height="100px" align="center" cellpadding="0px"
+           cellspacing="0px">
         <c:forEach items="${sessionScope.recruits}" var="recruit" varStatus="a">
             <c:if test="${a.count==1}">
                 <tr>
@@ -99,7 +98,6 @@
                     <td>薪资</td>
                     <td>发布时间</td>
                     <td>投递简历</td>
-                        <%--<td>修改</td>--%>
                 </tr>
             </c:if>
             <tr>
@@ -115,13 +113,6 @@
                         <input type="submit" value="投递简历">
                     </form>
                 </td>
-
-                    <%--<td>--%>
-                    <%--<form action="#" method="post">--%>
-                    <%--<input type="hidden" name="update_id" value="${recruit.rec_id}">--%>
-                    <%--<input type="submit" value="修改">--%>
-                    <%--</form>--%>
-                    <%--</td>--%>
             </tr>
         </c:forEach>
     </table>

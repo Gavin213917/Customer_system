@@ -3,7 +3,7 @@
 <mapper namespace="com.gavin.dao.DepartmentDao">
     <insert id="addDepartment">
         insert into T_DEPARTMENT values (
-        DEPARTMENT_SEQ.nextval,#{dep_name}
+        DEPARTMENT_SEQ.nextval,#{dep_name},#{dep_time}
         )
     </insert>
     <delete id="deleteDepartment">
@@ -16,6 +16,10 @@
 
     <select id="getDepartmentAll" resultType="Department">
         select * from T_DEPARTMENT
+    </select>
+
+    <select id="getDepartment" resultType="Department">
+        select * from T_DEPARTMENT where DEP_ID=#{dep_id}
     </select>
 
 </mapper>

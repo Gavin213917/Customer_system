@@ -11,5 +11,7 @@ public interface DepartmentDao {
 
     boolean updateDepartment(Department department);
 
+    Department getDepartment(Department department);
+
     List<Department> getDepartmentAll();
 }

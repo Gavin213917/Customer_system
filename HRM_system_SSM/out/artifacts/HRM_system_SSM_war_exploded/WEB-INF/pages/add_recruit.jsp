@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Gavin
-  Date: 2018/10/24
-  Time: 16:07
+  Date: 2018/10/25
+  Time: 13:29
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -15,55 +15,43 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <base href="<%=basePath%>"/>
-    <title>添加员工</title>
+    <title>添加招聘信息</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
     <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
-<form action="addEmployee" method="post">
-    <table class="table table-hover" border="1px" width="300px" height="300px" align="center" cellpadding="0px" cellspacing="0px">
+<form action="add_interview" method="post">
+    <table class="table table-hover" border="1px" width="300px" height="300px" align="center" cellpadding="0px"
+           cellspacing="0px">
         <tr>
-            <td>员工姓名</td>
-            <td><input name="emp_name"></td>
-        </tr>
-        <tr>
-            <td>性别</td>
-            <td><input type="text" name="emp_gender"></td>
-        </tr>
-        <tr>
-            <td>出生日期</td>
-            <td><input type="date" name="emp_birth"></td>
-        </tr>
-        <tr>
-            <td>薪资</td>
-            <td><input type="text" name="emp_salary"></td>
-        </tr>
-        <tr>
-            <td>员工账号</td>
-            <td><input type="text" name="emp_account"></td>
-        </tr>
-        <tr>
-            <td>密码</td>
-            <td><input type="text" name="emp_pass"></td>
-        </tr>
-        <tr>
-            <td>部门</td>
-            <td><input type="text" name="dep_id"></td>
+            <td>公司名字</td>
+            <td><input name="rec_company_name"></td>
         </tr>
         <tr>
             <td>职位</td>
-            <td><input type="text" name="pos_id"></td>
+            <td><input type="text" name="rec_job"></td>
         </tr>
         <tr>
-            <td>入职日期</td>
-            <td><input type="date" name="emp_hireDate"></td>
+            <td>招聘信息</td>
+            <td><input type="date" name="rec_info"></td>
         </tr>
         <tr>
-            <td>员工状态</td>
-            <td><input type="text" name="emp_status"></td>
+            <td>联系方式</td>
+            <td><input type="date" name="rec_contact"></td>
         </tr>
-
+        <tr>
+            <td>公司地址</td>
+            <td><input type="date" name="rec_address"></td>
+        </tr>
+        <tr>
+            <td>薪资</td>
+            <td><input type="date" name="rec_sal"></td>
+        </tr>
+        <tr>
+            <td>发布日期</td>
+            <td><input type="date" name="rec_date"></td>
+        </tr>
         <tr>
             <td colspan="2">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="添加"/>

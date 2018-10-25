@@ -20,10 +20,12 @@ public class RecruitServiceImpl implements RecruitService {
         return recruitDao.addRecruit(recruit);
     }
 
-    public boolean deleteRecruit(Recruit recruit) {
-        if (recruit == null) {
+    public boolean deleteRecruit(Integer rec_id) {
+        if (rec_id <= 0) {
             return false;
         }
+        Recruit recruit = new Recruit();
+        recruit.setRec_id(rec_id);
         return recruitDao.deleteRecruit(recruit);
     }
 

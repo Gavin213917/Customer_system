@@ -17,11 +17,11 @@ public class EmployeeController {
     private EmployeeService employeeService;
 
 
-    @RequestMapping("/addEmployee")
+    @RequestMapping("/add_employee")
     public String addEmployee(Employee employee, Model model) throws Exception {
         if (employeeService.addEmployee(employee)) {
             model.addAttribute("success", "添加成功");
-            return "addEmployee";
+            return "add_employee";
         }
         return "error";
     }
@@ -43,8 +43,8 @@ public class EmployeeController {
         return "error";
     }
 
-    @RequestMapping("/update")
-    public String update_employee(HttpServletRequest request, HttpSession session) throws Exception {
+    @RequestMapping("/updateEmployee")
+    public String update(HttpServletRequest request, HttpSession session) throws Exception {
         int emp_id = Integer.parseInt(request.getParameter("emp_id"));
         Employee employee = employeeService.getEmployee(emp_id);
         session.setAttribute("employee", employee);

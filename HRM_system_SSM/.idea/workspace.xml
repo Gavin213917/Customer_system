@@ -7,75 +7,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68deaefa-9838-4446-a4d2-18bcdcf7f8ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/PositionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/DepartmentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/PositionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/DepartmentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/PositionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/PositionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/PositionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addEmployee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_interview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_interview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_employee.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/user_info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/b13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/img/b14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/OfferController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/OfferDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/OfferMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/OfferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/OfferServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_department.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_offer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_recruit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_department.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_offer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_recruit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_department.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_recruit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/storage_v2/_src_/schema/GAVIN.4VwHBA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/storage_v2/_src_/schema/GAVIN.4VwHBA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/EmployeeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/GoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/GoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/ResumeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/ResumeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/adminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/adminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/dao/ResumeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/dao/ResumeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/ResumeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/ResumeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/model/Interview.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/model/Interview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/model/Resume.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/model/Resume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/ResumeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/ResumeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/ResumeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/ResumeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/InterviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/InterviewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/RecruitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/controller/RecruitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/dao/DepartmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/dao/InterviewDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/dao/InterviewDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/InterviewMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/mapper/InterviewMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/InterviewService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/InterviewService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/RecruitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/RecruitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/DepartmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/DepartmentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/InterviewServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/InterviewServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/RecruitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/classes/com/gavin/service/impl/RecruitServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/addEmployee.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/resume.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/resume.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/showRecruit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/showRecruit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/user_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded/WEB-INF/pages/user_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/controller/ResumeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/ResumeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/controller/adminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/dao/InterviewDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/InterviewDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/dao/ResumeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/ResumeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/controller/RecruitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/controller/RecruitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/dao/DepartmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/DepartmentMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/InterviewMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/InterviewMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/ResumeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/mapper/ResumeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/model/Interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/Interview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/model/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/model/Resume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/service/InterviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/InterviewService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/service/ResumeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/ResumeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/InterviewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/InterviewServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/ResumeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/ResumeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/service/RecruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/RecruitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/RecruitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/RecruitServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/addEmployee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_employee.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_interview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_interview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_employee.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_employee.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/user_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/user_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/controller/EmployeeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/controller/GoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/controller/GoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/controller/ResumeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/controller/ResumeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/controller/adminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/controller/adminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/dao/ResumeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/dao/ResumeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/mapper/ResumeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/mapper/ResumeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/model/Interview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/model/Interview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/model/Resume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/model/Resume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/ResumeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/ResumeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/ResumeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/ResumeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/controller/InterviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/controller/InterviewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/controller/RecruitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/controller/RecruitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/dao/DepartmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/dao/DepartmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/dao/InterviewDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/dao/InterviewDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/mapper/InterviewMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/mapper/InterviewMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/InterviewService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/InterviewService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/RecruitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/RecruitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/DepartmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/DepartmentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/InterviewServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/InterviewServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/RecruitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gavin/service/impl/RecruitServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,13 +120,7 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="GAVIN: schema" type="ac44c5e0:OracleImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="T_INTERVIEW: table" type="be4db629:OracleImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="GAVIN: schema" type="ac44c5e0:OracleImplModel$Schema" />
-        <item name="sequences" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="T_OFFER: table" type="be4db629:OracleImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -132,16 +129,20 @@
     <session id="1461300642">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -149,96 +150,80 @@
           <entry key="cell" value="45" />
           <entry key="dummy" value="5" />
           <entry key="html" value="50" />
-          <entry key="java" value="4961" />
-          <entry key="jsp" value="3288" />
+          <entry key="java" value="6759" />
+          <entry key="jsp" value="4013" />
           <entry key="properties" value="113" />
-          <entry key="sql" value="183" />
+          <entry key="sql" value="188" />
           <entry key="txt" value="8" />
-          <entry key="xml" value="1478" />
+          <entry key="xml" value="1554" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="50" />
-          <entry key="JAVA" value="4961" />
-          <entry key="JSP" value="3288" />
+          <entry key="JAVA" value="6759" />
+          <entry key="JSP" value="4013" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="113" />
-          <entry key="SQL" value="83" />
-          <entry key="Scratch" value="209" />
-          <entry key="XML" value="1414" />
+          <entry key="SQL" value="85" />
+          <entry key="Scratch" value="214" />
+          <entry key="XML" value="1488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="T_DEPARTMENT" value="1" />
           <entry key="T_EMPLOYEE" value="8" />
+          <entry key="T_INTERVIEW" value="1" />
           <entry key="T_RECRUIT" value="1" />
           <entry key="T_RESUME" value="1" />
           <entry key="T_USER" value="9" />
           <entry key="css" value="4" />
           <entry key="gif" value="10" />
           <entry key="html" value="6" />
-          <entry key="java" value="157" />
+          <entry key="java" value="208" />
           <entry key="jpg" value="51" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="100" />
+          <entry key="jsp" value="143" />
           <entry key="png" value="3" />
           <entry key="properties" value="3" />
-          <entry key="sql" value="20" />
-          <entry key="xml" value="68" />
+          <entry key="sql" value="21" />
+          <entry key="xml" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="Database Element" value="19" />
+          <entry key="Database Element" value="21" />
           <entry key="HTML" value="6" />
           <entry key="Image" value="64" />
-          <entry key="JAVA" value="157" />
-          <entry key="JSP" value="100" />
+          <entry key="JAVA" value="208" />
+          <entry key="JSP" value="143" />
           <entry key="JavaScript" value="2" />
           <entry key="Properties" value="3" />
           <entry key="SQL" value="2" />
-          <entry key="Scratch" value="18" />
-          <entry key="XML" value="68" />
+          <entry key="Scratch" value="19" />
+          <entry key="XML" value="78" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="62" column="87" lean-forward="true" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="87" />
+            <state relative-caret-position="664">
+              <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/OfferController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_interview.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="630">
+              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -246,29 +231,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/user_info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_interview.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="44" column="23" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="44" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="515">
-              <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -280,10 +247,10 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="mybatis-config" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Mybatis Mapper" />
         <option value="Class" />
-        <option value="HTML File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -294,33 +261,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/adminController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin_login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/model/Resume.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/model/Interview.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/resume.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/ResumeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/ResumeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/ResumeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/ResumeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/ResumeController.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/model/Position.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/model/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/PositionDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/PositionDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/PositionMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/PositionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/PositionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/DepartmentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/DepartmentDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/DepartmentMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/DepartmentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/DepartmentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/EmployeeDao.xml" />
@@ -330,21 +271,47 @@
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/aa.html" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_employee.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_employee.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_interview.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/InterviewDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/InterviewMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_interview.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/InterviewService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/InterviewServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/InterviewMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_interview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/RecruitService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/RecruitServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_recruit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_employee.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_recruit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/RecruitController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_recruit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_department.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_department.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/DepartmentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/DepartmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_department.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/DepartmentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_employee.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_interview.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/OfferDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_offer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/dao/OfferDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/OfferService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/service/impl/OfferServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/controller/OfferController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/user_info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/model/Offer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gavin/mapper/OfferMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_offer.jsp" />
       </list>
     </option>
   </component>
@@ -385,8 +352,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -446,6 +411,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRM_system_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRM_system_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gavin" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -486,6 +469,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,7 +478,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540400163989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540470675073" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -625,12 +610,16 @@
       <workItem from="1540211914404" duration="8276000" />
       <workItem from="1540255701926" duration="14978000" />
       <workItem from="1540301752854" duration="12816000" />
-      <workItem from="1540342192886" duration="38202000" />
+      <workItem from="1540342192886" duration="38358000" />
+      <workItem from="1540428671679" duration="15007000" />
+      <workItem from="1540453333581" duration="594000" />
+      <workItem from="1540456253398" duration="12649000" />
+      <workItem from="1540474397292" duration="2317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132613000" />
+    <option name="totallyTimeSpent" value="163336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,7 +634,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.2193646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49847096" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" sideWeight="0.50152904" side_tool="true" weight="0.24962293" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -674,7 +663,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.22617246" />
+      <window_info anchor="right" id="Database" order="5" weight="0.22087745" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
@@ -687,267 +676,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin_login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/ResumeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/ResumeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Interview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/ResumeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/PositionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/PositionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/PositionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/PositionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/DepartmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/DepartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/DepartmentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/DepartmentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/ResumeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/ResumeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="25" column="200" selection-start-line="25" selection-start-column="200" selection-end-line="25" selection-end-column="200" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1659#1660#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2279#2280#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/b11.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/b10.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/img/b12.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/aa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -962,40 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_employee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="63" column="94" selection-start-line="63" selection-start-column="94" selection-end-line="63" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/PositionController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1006,37 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/addEmployee.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/InterviewMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/InterviewDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,34 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="60" column="16" lean-forward="true" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_interview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="62" column="87" lean-forward="true" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="87" />
         </state>
       </provider>
     </entry>
@@ -1086,16 +725,188 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/schema/GAVIN/table/T_INTERVIEW">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/InterviewMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/RecruitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/RecruitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/showRecruit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_interview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Recruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_department.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_employee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/DepartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_department.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="31" column="92" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_department.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/update_recruit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/RecruitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/schema/GAVIN/table/T_DEPARTMENT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/DepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/DepartmentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_employee.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1104,15 +915,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_interview.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="44" column="23" lean-forward="true" selection-start-line="39" selection-start-column="15" selection-end-line="44" selection-end-column="23" />
+        <state relative-caret-position="263">
+          <caret line="51" column="48" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="51" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7df6396-c3eb-4941-bb9a-dd4d1a52a14c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Interview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/GoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_recruit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/impl/OfferServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/service/OfferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/InterviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/add_offer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_recruit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/dao/OfferDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/model/Offer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1130">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1566#1567#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1712#1713#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/mapper/OfferMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="77" lean-forward="true" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/show_offer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/user_info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+        <state relative-caret-position="515">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gavin/controller/OfferController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pages/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="134" column="39" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
         </state>
       </provider>
     </entry>

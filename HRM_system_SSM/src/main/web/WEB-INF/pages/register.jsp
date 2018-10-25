@@ -31,8 +31,7 @@
     </script>
 </head>
 <body>
-<%--引入header.jsp--%>
-<jsp:include page="../../header.jsp"/>
+
 <div style="background: azure">
     <form action="/register" method="post" name="regForm" onsubmit="return check()">
         <table border="0px" width="650px" height="400px" align="center" cellpadding="0px" cellspacing="0px"
@@ -119,6 +118,6 @@
         </table>
     </form>
 </div>
-<jsp:include page="../../foot.jsp"/>
+
 </body>
 </html>

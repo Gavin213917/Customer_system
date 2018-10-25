@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gavin.dao.OfferDao">
+    <insert id="addOffer">
+        insert into T_OFFER values (
+        OFFER_SEQ.nextval,#{offer_name},#{offer_salary},
+        #{offer_time},#{offer_address},#{u_id},#{offer_account},#{offer_pass}
+        )
+    </insert>
+
+    <select id="getOffer" resultType="Offer">
+        select * from T_OFFER where U_ID=#{u_id}
+    </select>
+
+    <select id="getOffers" resultType="Offer">
+        select * from T_OFFER
+    </select>
+</mapper>

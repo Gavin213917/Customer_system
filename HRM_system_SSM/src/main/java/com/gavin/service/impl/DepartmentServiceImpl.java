@@ -29,13 +29,20 @@ public class DepartmentServiceImpl implements DepartmentService {
         return departmentDao.deleteDepartment(department);
     }
 
-    public boolean updateDepartment(Integer dep_id) {
-        if (dep_id <= 0) {
+    public boolean updateDepartment(Department department) {
+        if (department == null) {
             return false;
+        }
+        return departmentDao.updateDepartment(department);
+    }
+
+    public Department getDepartment(Integer dep_id) {
+        if (dep_id <= 0) {
+            return null;
         }
         Department department = new Department();
         department.setDep_id(dep_id);
-        return departmentDao.updateDepartment(department);
+        return departmentDao.getDepartment(department);
     }
 
     public List<Department> getDepartmentAll() {

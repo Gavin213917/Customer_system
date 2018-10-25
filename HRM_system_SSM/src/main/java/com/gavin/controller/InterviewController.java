@@ -20,7 +20,7 @@ public class InterviewController {
     public String add_interview(Interview interview, Model model) throws Exception {
         if (interviewService.addInterview(interview)) {
             model.addAttribute("success", "发送成功");
-            return "show_interview";
+            return "add_interview";
         }
         return "error";
     }
@@ -29,16 +29,25 @@ public class InterviewController {
     public String show_interview(HttpSession session) throws Exception {
         List<Interview> interviewList = interviewService.getInterviewAll();
         session.setAttribute("interviewList", interviewList);
-        return "user_info";
+        return "show_interview";
     }
 
     @RequestMapping("/update_interview")
-    public String update_interview(HttpServletRequest request) throws Exception {
+    public String update_interview(HttpServletRequest request, HttpSession session) throws Exception {
+        List<Interview> interviewList = interviewService.getInterviewAll();
+        session.setAttribute("interviewList", interviewList);
         int u_id = Integer.parseInt(request.getParameter("u_id"));
         Interview interview = interviewService.getInterview(u_id);
-        interview.setIview_status(2);
+        if (interview.getIview_status() == 1) {
+            interview.setIview_status(2);
+        } else if (interview.getIview_status() == 2) {
+            interview.setIview_status(3);
+            return "";
+        }else if(interview.getIview_status() == 3){
+            interview.setIview_status(4);
+        }
         interviewService.updateInterview(interview);
-        return "show_interview";
+        return "user_info";
     }
 
 }

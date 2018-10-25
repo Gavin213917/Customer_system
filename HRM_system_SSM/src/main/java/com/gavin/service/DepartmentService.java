@@ -9,7 +9,9 @@ public interface DepartmentService {
 
     boolean deleteDepartment(Integer dep_id);
 
-    boolean updateDepartment(Integer dep_id);
+    boolean updateDepartment(Department department);
+
+    Department getDepartment(Integer dep_id);
 
     List<Department> getDepartmentAll();
 }

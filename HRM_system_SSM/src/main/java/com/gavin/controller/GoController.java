@@ -5,6 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class GoController {
+    @RequestMapping("/go_index")
+    public String go_main() throws Exception {
+        return "../../index";
+    }
+
     @RequestMapping("/go_login")
     public String go_login() throws Exception {
         return "login";
@@ -30,14 +35,29 @@ public class GoController {
         return "main";
     }
 
-    @RequestMapping("/go_addEmployee")
+    @RequestMapping("/go_add_employee")
     public String go_addEmployee() throws Exception {
-        return "addEmployee";
+        return "add_employee";
     }
 
     @RequestMapping("/go_add_interview")
     public String go_add_interview() throws Exception {
         return "add_interview";
+    }
+
+    @RequestMapping("/go_add_recruit")
+    public String go_add_recruit() throws Exception {
+        return "add_recruit";
+    }
+
+    @RequestMapping("/go_add_department")
+    public String go_add_department() throws Exception {
+        return "add_department";
+    }
+
+    @RequestMapping("/go_add_offer")
+    public String go_add_offer() throws Exception {
+        return "add_offer";
     }
 
 }
