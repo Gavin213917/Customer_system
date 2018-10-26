@@ -21,7 +21,7 @@
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
-<form action="add_interview" method="post">
+<form action="add_recruit" method="post">
     <table class="table table-hover" border="1px" width="300px" height="300px" align="center" cellpadding="0px"
            cellspacing="0px">
         <tr>
@@ -34,19 +34,19 @@
         </tr>
         <tr>
             <td>招聘信息</td>
-            <td><input type="date" name="rec_info"></td>
+            <td><input name="rec_info"></td>
         </tr>
         <tr>
             <td>联系方式</td>
-            <td><input type="date" name="rec_contact"></td>
+            <td><input name="rec_contact"></td>
         </tr>
         <tr>
             <td>公司地址</td>
-            <td><input type="date" name="rec_address"></td>
+            <td><input name="rec_address"></td>
         </tr>
         <tr>
             <td>薪资</td>
-            <td><input type="date" name="rec_sal"></td>
+            <td><input name="rec_sal"></td>
         </tr>
         <tr>
             <td>发布日期</td>

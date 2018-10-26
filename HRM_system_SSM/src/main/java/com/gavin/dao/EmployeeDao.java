@@ -13,5 +13,7 @@ public interface EmployeeDao {
 
     Employee getEmployee(Employee employee);
 
+    List<Employee> getEmployeeByPid(Integer pos_id);
+
     List<Employee> getEmployeeAll();
 }

@@ -17,8 +17,12 @@ public class RecruitController {
     private RecruitService recruitService;
 
     @RequestMapping("/add_recruit")
-    public String add_recruit() throws Exception {
-        return "add_recruit";
+    public String add_recruit(Recruit recruit, Model model) throws Exception {
+        if (recruitService.addRecruit(recruit)) {
+            model.addAttribute("success", "添加成功");
+            return "add_recruit";
+        }
+        return "error";
     }
 
     @RequestMapping("/showRecruit")
@@ -51,17 +55,20 @@ public class RecruitController {
     }
 
     @RequestMapping("/updateRecruit")
-    public String update() throws Exception {
-        return "update_recruit";
-    }
-
-    @RequestMapping("/update_recruit")
-    public String update_recruit(HttpServletRequest request, HttpSession session) throws Exception {
+    public String update(HttpServletRequest request, HttpSession session) throws Exception {
         int rec_id = Integer.parseInt(request.getParameter("update_id"));
         Recruit recruit = new Recruit();
         recruit.setRec_id(rec_id);
         Recruit recruit1 = recruitService.getRecruit(recruit);
         session.setAttribute("recruit", recruit1);
-        return "show_recruit";
+        return "update_recruit";
+    }
+
+    @RequestMapping("/update_recruit")
+    public String update_recruit(Recruit recruit) throws Exception {
+        if (recruitService.updateRecruit(recruit)) {
+            return "show_recruit";
+        }
+        return "error";
     }
 }

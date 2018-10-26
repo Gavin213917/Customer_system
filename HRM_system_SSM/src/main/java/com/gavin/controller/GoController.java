@@ -60,4 +60,9 @@ public class GoController {
         return "add_offer";
     }
 
+    @RequestMapping("/go_look_position")
+    public String go_look_position() throws Exception {
+        return "look_position";
+    }
+
 }

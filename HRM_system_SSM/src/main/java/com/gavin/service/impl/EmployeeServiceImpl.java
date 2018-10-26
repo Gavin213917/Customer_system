@@ -36,13 +36,19 @@ public class EmployeeServiceImpl implements EmployeeService {
         return employeeDao.updateEmployee(employee);
     }
 
-    public Employee getEmployee(Integer emp_id) {
-        if (emp_id <= 0) {
+    public Employee getEmployee(Employee employee) {
+        if (employee == null) {
             return null;
         }
-        Employee employee = new Employee();
-        employee.setEmp_id(emp_id);
         return employeeDao.getEmployee(employee);
+    }
+
+    public List<Employee> getEmployeeByPid(Integer pos_id) {
+        List<Employee> employeeList = employeeDao.getEmployeeByPid(pos_id);
+        if (employeeList.size() != 0) {
+            return employeeList;
+        }
+        return null;
     }
 
     public List<Employee> getEmployeeAll() {

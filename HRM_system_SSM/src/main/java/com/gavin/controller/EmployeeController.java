@@ -5,6 +5,7 @@ import com.gavin.service.EmployeeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -35,7 +36,7 @@ public class EmployeeController {
 
     @RequestMapping("/delete_employee")
     public String delete_employee(HttpServletRequest request, Model model) throws Exception {
-        int emp_id = Integer.parseInt(request.getParameter("update_id"));
+        int emp_id = Integer.parseInt(request.getParameter("delete_id"));
         if (employeeService.deleteEmployee(emp_id)) {
             model.addAttribute("success", "删除成功");
             return "show_employee";
@@ -45,9 +46,11 @@ public class EmployeeController {
 
     @RequestMapping("/updateEmployee")
     public String update(HttpServletRequest request, HttpSession session) throws Exception {
-        int emp_id = Integer.parseInt(request.getParameter("emp_id"));
-        Employee employee = employeeService.getEmployee(emp_id);
-        session.setAttribute("employee", employee);
+        int emp_id = Integer.parseInt(request.getParameter("update_id"));
+        Employee employee = new Employee();
+        employee.setEmp_id(emp_id);
+        Employee employee1 = employeeService.getEmployee(employee);
+        session.setAttribute("employee", employee1);
         return "update_employee";
     }
 
@@ -58,5 +61,12 @@ public class EmployeeController {
             return "show_employee";
         }
         return "error";
+    }
+
+    @RequestMapping("/look_position")
+    public @ResponseBody
+    List<Employee> look_position(HttpServletRequest request) throws Exception {
+        int pos_id = Integer.parseInt(request.getParameter("pos_id"));
+        return employeeService.getEmployeeByPid(pos_id);
     }
 }

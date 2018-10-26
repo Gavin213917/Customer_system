@@ -19,4 +19,8 @@
     <select id="getPositionAll" resultType="Position">
         select * from T_POSITION
     </select>
+
+    <select id="getPosition" resultType="Position">
+         select * from T_POSITION where POS_ID=#{pos_id}
+    </select>
 </mapper>

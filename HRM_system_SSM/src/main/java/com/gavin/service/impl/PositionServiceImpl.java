@@ -29,13 +29,20 @@ public class PositionServiceImpl implements PositionService {
         return positionDao.deletePosition(position);
     }
 
-    public boolean updatePosition(Integer pos_id) {
-        if (pos_id <= 0) {
+    public boolean updatePosition(Position position) {
+        if (position == null) {
             return false;
+        }
+        return positionDao.updatePosition(position);
+    }
+
+    public Position getPosition(Integer pos_id) {
+        if (pos_id <= 0) {
+            return null;
         }
         Position position = new Position();
         position.setPos_id(pos_id);
-        return positionDao.updatePosition(position);
+        return positionDao.getPosition(position);
     }
 
     public List<Position> getPositionAll() {

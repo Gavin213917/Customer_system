@@ -42,12 +42,9 @@ public class InterviewController {
             interview.setIview_status(2);
         } else if (interview.getIview_status() == 2) {
             interview.setIview_status(3);
-            return "";
-        }else if(interview.getIview_status() == 3){
-            interview.setIview_status(4);
         }
         interviewService.updateInterview(interview);
-        return "user_info";
+        return "success";
     }
 
 }

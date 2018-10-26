@@ -42,7 +42,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">个人信息<span class="sr-only">(current)</span></a>
                     </li>
-                    <li><a href="#">修改信息</a></li>
+                    <li><a href="show_offer">消息</a></li>
                     <li><a href="show_interview">通知</a></li>
                 </ul>
             </div>
@@ -61,35 +61,35 @@
 </table>
 
 <%--<table class="table table-hover" border="1px" width="1000px" height="100px" align="center" cellpadding="0px"--%>
-       <%--cellspacing="0px">--%>
-    <%--<c:forEach items="${sessionScope.interviewList}" var="interview" varStatus="a">--%>
-        <%--<c:if test="${a.count==1}">--%>
-            <%--<tr>--%>
-                <%--<td>编号</td>--%>
-                <%--<td>求职人</td>--%>
-                <%--<td>状态</td>--%>
-                <%--<td>发布时间</td>--%>
-                <%--<td>确认面试</td>--%>
-            <%--</tr>--%>
-        <%--</c:if>--%>
-        <%--<tr>--%>
-            <%--<td>${interview.iview_id}</td>--%>
-            <%--<td>${interview.u_id}</td>--%>
-            <%--<td>--%>
-                <%--<c:if test="${interview.iview_status==1}">--%>
-                    <%--<c:out value="HR已阅读简历,邀请您去面试"/>--%>
-                <%--</c:if>--%>
-                <%--<c:if test="${interview.iview_status==2}">--%>
-                    <%--<c:out value="求职者同意面试"/>--%>
-                <%--</c:if>--%>
-                <%--<c:if test="${interview.iview_status==3}">--%>
-                    <%--<c:out value="恭喜您，已被本公司录用"/>--%>
-                <%--</c:if>--%>
-            <%--</td>--%>
-            <%--<td>${interview.iview_time}</td>--%>
-            <%--<td><a href="update_interview?u_id=${interview.u_id}"><input type="button" value="确认"></a></td>--%>
-        <%--</tr>--%>
-    <%--</c:forEach>--%>
+<%--cellspacing="0px">--%>
+<%--<c:forEach items="${sessionScope.interviewList}" var="interview" varStatus="a">--%>
+<%--<c:if test="${a.count==1}">--%>
+<%--<tr>--%>
+<%--<td>编号</td>--%>
+<%--<td>求职人</td>--%>
+<%--<td>状态</td>--%>
+<%--<td>发布时间</td>--%>
+<%--<td>确认面试</td>--%>
+<%--</tr>--%>
+<%--</c:if>--%>
+<%--<tr>--%>
+<%--<td>${interview.iview_id}</td>--%>
+<%--<td>${interview.u_id}</td>--%>
+<%--<td>--%>
+<%--<c:if test="${interview.iview_status==1}">--%>
+<%--<c:out value="HR已阅读简历,邀请您去面试"/>--%>
+<%--</c:if>--%>
+<%--<c:if test="${interview.iview_status==2}">--%>
+<%--<c:out value="求职者同意面试"/>--%>
+<%--</c:if>--%>
+<%--<c:if test="${interview.iview_status==3}">--%>
+<%--<c:out value="恭喜您，已被本公司录用"/>--%>
+<%--</c:if>--%>
+<%--</td>--%>
+<%--<td>${interview.iview_time}</td>--%>
+<%--<td><a href="update_interview?u_id=${interview.u_id}"><input type="button" value="确认"></a></td>--%>
+<%--</tr>--%>
+<%--</c:forEach>--%>
 <%--</table>--%>
 </body>
 </html>

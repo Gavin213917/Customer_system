@@ -9,7 +9,9 @@ public interface PositionService {
 
     boolean deletePosition(Integer pos_id);
 
-    boolean updatePosition(Integer pos_id);
+    boolean updatePosition(Position position);
+
+    Position getPosition(Integer pos_id);
 
     List<Position> getPositionAll();
 }

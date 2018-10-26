@@ -58,7 +58,7 @@
                 </form>
             </td>
             <td>
-                <form action="update" method="post">
+                <form action="updateRecruit" method="post">
                     <input type="hidden" name="update_id" value="${recruit.rec_id}">
                     <input type="submit" value="修改">
                 </form>

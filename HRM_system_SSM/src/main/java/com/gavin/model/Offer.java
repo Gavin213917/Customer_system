@@ -9,7 +9,7 @@ public class Offer implements Serializable {
     private Integer offer_id;
     private String offer_name;
     private Double offer_salary;
-    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date offer_time;
     private String offer_address;
     private Integer u_id;

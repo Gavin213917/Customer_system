@@ -33,7 +33,7 @@
 <body>
 
 <div style="background: azure">
-    <form action="/register" method="post" name="regForm" onsubmit="return check()">
+    <form action="register" method="post" name="regForm" onsubmit="return check()">
         <table border="0px" width="650px" height="400px" align="center" cellpadding="0px" cellspacing="0px"
                bgcolor="azure">
             <tr height="40px">

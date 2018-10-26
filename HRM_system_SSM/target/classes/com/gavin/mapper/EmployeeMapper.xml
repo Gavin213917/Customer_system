@@ -30,15 +30,25 @@
         select * from T_EMPLOYEE
         <where>
             <if test="emp_id!=null and emp_id!=''">
-                emp_id=#{emp_id}
+                and emp_id=#{emp_id}
             </if>
             <if test="emp_account!=null and emp_account!=''">
-                emp_account=#{emp_account}
+                and emp_account=#{emp_account}
+            </if>
+            <if test="pos_id!=null and pos_id!=''">
+                and pos_id=#{pos_id}
+            </if>
+            <if test="dep_id!=null and dep_id!=''">
+                and dep_id=#{dep_id}
             </if>
         </where>
     </select>
 
     <select id="getEmployeeAll" resultType="Employee">
         select * from T_EMPLOYEE
+    </select>
+
+    <select id="getEmployeeByPid" resultType="Employee">
+        select * from T_EMPLOYEE where POS_ID=#{pos_id}
     </select>
 </mapper>

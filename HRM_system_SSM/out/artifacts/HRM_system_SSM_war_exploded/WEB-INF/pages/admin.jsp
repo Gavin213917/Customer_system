@@ -48,10 +48,10 @@
                 </li>
                 <li><a href="...">职位信息<i class="tip-up"></i></a>
                     <ul class="kidc">
-                        <li><b class="tip"></b><a target="Conframe" href="Template/form-Master-slave.html">增加</a></li>
-                        <li><b class="tip"></b><a target="Conframe" href="Template/form-collapse.html">修改</a></li>
-                        <li><b class="tip"></b><a target="Conframe" href="Template/form-tabs.html">删除</a></li>
-                        <li><b class="tip"></b><a target="Conframe" href="Template/form-tree.html">查询</a></li>
+                        <li><b class="tip"></b><a target="Conframe" href="">增加</a></li>
+                        <li><b class="tip"></b><a target="Conframe" href="">修改</a></li>
+                        <li><b class="tip"></b><a target="Conframe" href="">删除</a></li>
+                        <li><b class="tip"></b><a target="Conframe" href="show_position">查询</a></li>
                     </ul>
                 </li>
                 <li><a href="...">招聘信息<i class="tip-up"></i></a>
@@ -109,7 +109,7 @@
                 <ul class="kid">
                     <li><b class="tip"></b><a target="Conframe" href="go_add_employee">增加</a></li>
                     <%--<li><b class="tip"></b><a target="Conframe" href="">修改</a></li>--%>
-                    <%--<li><b class="tip"></b><a target="Conframe" href="">删除</a></li>--%>
+                    <li><b class="tip"></b><a target="Conframe" href="go_look_position">test</a></li>
                     <li><b class="tip"></b><a target="Conframe" href="show_employee">查询</a></li>
                 </ul>
             </div>
@@ -125,19 +125,20 @@
             <div>
                 <a class="one">职位信息</a>
                 <ul class="kid">
-                    <li><b class="tip"></b><a target="Conframe" href="Template/form-Master-slave.html">增加</a></li>
-                    <li><b class="tip"></b><a target="Conframe" href="Template/form-collapse.html">修改</a></li>
-                    <li><b class="tip"></b><a target="Conframe" href="Template/form-tabs.html">删除</a></li>
-                    <li><b class="tip"></b><a target="Conframe" href="Template/form-tree.html">查询</a></li>
+                    <li><b class="tip"></b><a target="Conframe" href="add_position">增加</a></li>
+                    <%--<li><b class="tip"></b><a target="Conframe" href="Template/form-collapse.html">修改</a></li>--%>
+                    <%--<li><b class="tip"></b><a target="Conframe" href="Template/form-tabs.html">删除</a></li>--%>
+                    <li><b class="tip"></b><a target="Conframe" href="show_position">查询</a></li>
                 </ul>
             </div>
             <div>
                 <a class="one">招聘信息</a>
                 <ul class="kid">
-                    <li><b class="tip"></b><a target="Conframe" href="go_add_recruit">增加</a></li>
-                    <li><b class="tip"></b><a target="Conframe" href="show_recruit">查询</a></li>
+                    <li><b class="tip"></b><a target="Conframe" href="go_add_recruit">添加招聘信息</a></li>
+                    <li><b class="tip"></b><a target="Conframe" href="show_recruit">查询招聘信息</a></li>
                     <li><b class="tip"></b><a target="Conframe" href="go_add_interview">发送面试邀请</a></li>
-                    <li><b class="tip"></b><a target="..." href="show_interview">查看面试信息</a></li>
+                    <li><b class="tip"></b><a target="Conframe" href="show_interview">查看面试信息</a></li>
+                    <li><b class="tip"></b><a target="Conframe" href="go_add_offer">发送聘用通知</a></li>
                     <li><b class="tip"></b><a target="..." href="go_index">返回</a></li>
                 </ul>
             </div>

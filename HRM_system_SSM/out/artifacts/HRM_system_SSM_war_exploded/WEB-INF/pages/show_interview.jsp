@@ -46,9 +46,6 @@
                     <c:out value="求职者同意面试"/>
                 </c:if>
                 <c:if test="${interview.iview_status==3}">
-                    <c:out value="求职者同意面试"/>
-                </c:if>
-                <c:if test="${interview.iview_status==4}">
                     <c:out value="恭喜您，已被本公司录用"/>
                 </c:if>
             </td>

@@ -46,6 +46,7 @@
             <td>${employee.emp_name}</td>
             <td>${employee.emp_gender}</td>
             <td>${employee.emp_birth}</td>
+            <td>${employee.emp_salary}</td>
             <td>${employee.emp_account}</td>
             <td>${employee.dep_id}</td>
             <td>${employee.pos_id}</td>
@@ -53,13 +54,13 @@
             <td>${employee.emp_status}</td>
             <td>
                 <form action="delete_employee" method="post">
-                    <input type="hidden" name="emp_id" value="${employee.emp_id}">
+                    <input type="hidden" name="delete_id" value="${employee.emp_id}">
                     <input type="submit" value="删除">
                 </form>
             </td>
 
             <td>
-                <form action="update" method="post">
+                <form action="updateEmployee" method="post">
                     <input type="hidden" name="update_id" value="${employee.emp_id}">
                     <input type="submit" value="修改">
                 </form>

@@ -11,5 +11,7 @@ public interface PositionDao {
 
     boolean updatePosition(Position position);
 
+    Position getPosition(Position position);
+
     List<Position> getPositionAll();
 }

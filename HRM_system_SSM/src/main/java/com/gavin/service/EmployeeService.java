@@ -11,7 +11,9 @@ public interface EmployeeService {
 
     boolean updateEmployee(Employee employee);
 
-    Employee getEmployee(Integer emp_id);
+    Employee getEmployee(Employee employee);
+
+    List<Employee> getEmployeeByPid(Integer pos_id);
 
     List<Employee> getEmployeeAll();
 }
