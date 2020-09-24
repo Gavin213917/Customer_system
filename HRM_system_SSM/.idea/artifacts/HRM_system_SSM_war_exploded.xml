@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" build-on-make="true" name="HRM_system_SSM:war exploded">
+  <artifact type="exploded-war" name="HRM_system_SSM:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/HRM_system_SSM_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
@@ -7,7 +7,7 @@
           <element id="module-output" name="HRM_system_SSM" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: junit:junit:4.13" />
           <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: taglibs:standard:1.0" />

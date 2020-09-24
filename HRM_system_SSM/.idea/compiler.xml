@@ -9,5 +9,8 @@
         <module name="HRM_system_SSM" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HRM_system_SSM" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
